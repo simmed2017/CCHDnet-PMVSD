@@ -1,4 +1,5 @@
 ### folders and files:
+`/CMeIE` contains the CMeIE data file used in this paper, which could be downloaded from https://tianchi.aliyun.com/dataset/95414.
 
 `/checkpoint` is used to store model parameters.
 
