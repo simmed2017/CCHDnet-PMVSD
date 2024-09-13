@@ -14,22 +14,22 @@ Example:
 Input: Medical text
 Output: Entities and their corresponding categories
 
-Input text: "ÊÒ¼ä¸ôÈ±Ëğ£¨Ä¤ÖÜ²¿£©8.3mm¡£"
-Output: Entity 1: "ÊÒ¼ä¸ôÈ±Ëğ", category: "Disease"; Entity 2: "Ä¤ÖÜ²¿", category: "Location"
+Input text: "å®¤é—´éš”ç¼ºæŸï¼ˆè†œå‘¨éƒ¨ï¼‰8.3mmã€‚"
+Output: Entity 1: "å®¤é—´éš”ç¼ºæŸ", category: "Disease"; Entity 2: "è†œå‘¨éƒ¨", category: "Location"
 ________________________________________
 
 2. Chinese Medical Relation Extraction (CADA)
 Input: Medical text
 Output: Relational triplet (Subject, Relation, Object)
 
-Input text: "ÊÒ¼ä¸ôÈ±Ëğ£¨Ä¤ÖÜ²¿£©8.3mm¡£"
-Output triplet: (ÊÒ¼ä¸ôÈ±Ëğ£¨Ä¤ÖÜ²¿£©, size, 8.3mm)
+Input text: "å®¤é—´éš”ç¼ºæŸï¼ˆè†œå‘¨éƒ¨ï¼‰8.3mmã€‚"
+Output triplet: (å®¤é—´éš”ç¼ºæŸï¼ˆè†œå‘¨éƒ¨ï¼‰, size, 8.3mm)
 ________________________________________
 
 3. Chinese Medical Entity Alignment (Med-GNN)
 Input: Medical phrase, standard terminology database
 Output: Corresponding standard terminology
 
-Input medical phrase: "ÊÒ¼ä¸ôÈ±Ëğ£¨Ä¤ÖÜ²¿£©"
+Input medical phrase: "å®¤é—´éš”ç¼ºæŸï¼ˆè†œå‘¨éƒ¨ï¼‰"
 standard terminology database: "Custom"
-Output corresponding terminology: Ä¤ÖÜ²¿ÊÒ¼ä¸ôÈ±Ëğ, converted to Flag2 (ventricular septal defect), encode: 1.
+Output corresponding terminology: è†œå‘¨éƒ¨å®¤é—´éš”ç¼ºæŸ, converted to Flag2 (ventricular septal defect), encode: 1.
